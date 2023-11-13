@@ -52,7 +52,7 @@ function ResponsiveDrawer(props) {
                 <ListItem key="About" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                        <Avatar style={{ backgroundColor: '#f00' }}>
+                        <Avatar style={{ backgroundColor: '#2C7F2E' }}>
                   
                   </Avatar>
                         </ListItemIcon>
@@ -62,7 +62,7 @@ function ResponsiveDrawer(props) {
                 <ListItem key="Experience" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#00ff00' }}>
+                            <Avatar style={{ backgroundColor: '#23badc' }}>
                                 <MovingIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
@@ -72,7 +72,7 @@ function ResponsiveDrawer(props) {
                 <ListItem key="Projects" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#00ff00' }}>
+                            <Avatar style={{ backgroundColor: '#293bd4' }}>
                                 <AccountTreeIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
@@ -82,7 +82,7 @@ function ResponsiveDrawer(props) {
                 <ListItem key="Skills" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#00ff00' }}>
+                            <Avatar style={{ backgroundColor: '#8f29d4' }}>
                                 <EqualizerIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
@@ -92,17 +92,18 @@ function ResponsiveDrawer(props) {
                 <ListItem key="Contact" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#00ff00' }}>
+                            <Avatar style={{ backgroundColor: '#874747' }}>
                                 <ContactEmergencyIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
                         <ListItemText primary="Contact" />
                     </ListItemButton>
                 </ListItem>
+
                 <ListItem key="Education" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#00ff00' }}>
+                            <Avatar style={{ backgroundColor: '#E25219' }}>
                                 <SchoolIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
@@ -112,7 +113,7 @@ function ResponsiveDrawer(props) {
                 <ListItem key="Blog" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#00ff00' }}>
+                            <Avatar style={{ backgroundColor: '#F7e21e' }}>
                                 <RssFeedIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
@@ -122,7 +123,7 @@ function ResponsiveDrawer(props) {
                 <ListItem key="Resume" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#00ff00' }}>
+                            <Avatar style={{ backgroundColor: '#565650' }}>
                                 <DescriptionIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
