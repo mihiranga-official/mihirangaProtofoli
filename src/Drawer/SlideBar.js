@@ -39,22 +39,22 @@ function ResponsiveDrawer(props) {
     const drawer = (
         <div style={{ margin: 0, padding: 0, textAlign: 'center' }}>
             {/* <Toolbar /> */}
-            
-            <div style={{textAlign: 'center'}}>
+
+            <div style={{ textAlign: 'center' }}>
                 <h3>Janith</h3>
                 <h3>Gunawardana</h3>
                 <h4>Software Engineer</h4>
             </div>
-          
+
             <Divider />
             <List>
                 {/* About Section */}
                 <ListItem key="About" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                        <Avatar style={{ backgroundColor: '#2C7F2E' }}>
-                  
-                  </Avatar>
+                            <Avatar style={{ backgroundColor: '#2C7F2E' }}>
+
+                            </Avatar>
                         </ListItemIcon>
                         <ListItemText primary="About" />
                     </ListItemButton>
@@ -123,7 +123,7 @@ function ResponsiveDrawer(props) {
                 <ListItem key="Resume" disablePadding>
                     <ListItemButton>
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#565650' }}>
+                            <Avatar style={{ backgroundColor: '' }}>
                                 <DescriptionIcon /> {/* Replace with the desired icon for the avatar */}
                             </Avatar>
                         </ListItemIcon>
