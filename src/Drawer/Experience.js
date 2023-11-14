@@ -1,15 +1,12 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function Experience() {
+const Experience = () => {
   return (
-    
-    <Card sx={{ maxWidth: 545, margin: 'auto' }}>
+    <Card sx={{ maxWidth: 545, margin: 'auto', boxShadow: 15 }}>
       <CardMedia
         sx={{ height: 140 }}
         image="/static/images/cards/contemplative-reptile.jpg"
@@ -24,6 +21,10 @@ export default function Experience() {
           species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
+      
     </Card>
+   
   );
-}
+};
+
+export default Experience;
