@@ -26,16 +26,20 @@ import SchoolIcon from '@mui/icons-material/School';
 import RssFeedIcon from '@mui/icons-material/RssFeed';
 import DescriptionIcon from '@mui/icons-material/Description';
 import ContactEmergencyIcon from '@mui/icons-material/ContactEmergency';
+import  {useNavigate} from 'react-router-dom';
 const drawerWidth = 240;
 
 function ResponsiveDrawer(props) {
+  
     const { window } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
+    
+
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
     };
-
+ 
     const drawer = (
         <div style={{ margin: 0, padding: 0, textAlign: 'center' }}>
             {/* <Toolbar /> */}
@@ -50,9 +54,9 @@ function ResponsiveDrawer(props) {
             <List>
                 {/* About Section */}
                 <ListItem key="About" disablePadding>
-                    <ListItemButton>
+                    <ListItemButton >
                         <ListItemIcon>
-                            <Avatar style={{ backgroundColor: '#2C7F2E' }}>
+                            <Avatar style={{ backgroundColor: '#2C7F2E' }} >
 
                             </Avatar>
                         </ListItemIcon>

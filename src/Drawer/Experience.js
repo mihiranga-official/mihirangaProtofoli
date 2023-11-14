@@ -6,8 +6,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function MediaCard() {
+export default function Experience() {
   return (
+    
     <Card sx={{ maxWidth: 545, margin: 'auto' }}>
       <CardMedia
         sx={{ height: 140 }}
